@@ -1,1 +1,1 @@
-# Simple-JS-Calculator
+# Simple-JS-Calculator for zuri task
