@@ -1,44 +1,44 @@
 
-    let x,y,z,oper;
-    x=prompt("Type first number");
+    let firstNumber,secondNumber,result,oper;
+    firstNumber=prompt("Type first number");
     oper=prompt("Type an operator e.g +, -, /, *, %");
-    y=prompt("Type second number");
+    secondNumber=prompt("Type second number");
    
    
     
     if(oper=="+"){
-      z=parseFloat(x) + parseFloat(y);
+     result=parseFloat(firstNumber) + parseFloat(secondNumber);
     }
       else if(oper=="/"){
-        z=parseFloat(x) / parseFloat(y);
+        result=parseFloat(firstNumber) / parseFloat(secondNumber);
     }
 
     else if(oper=="%"){
-        z=parseFloat(x) % parseFloat(y);
+        result=parseFloat(firstNumber) % parseFloat(secondNumber);
       }
 
     else if(oper=="*"){
-        z=parseFloat(x) * parseFloat(y);  
+        result=parseFloat(firstNumber) * parseFloat(secondNumber);  
     }
 
     else if(oper=="-"){
-        z=parseFloat(x) - parseFloat(y);
+        result=parseFloat(firstNumber) - parseFloat(secondNumber);
     }
 
     else if(oper=!null){
-      z="Error";
+     result="Error";
     }
     
-    else if(x=!null){
-      z="Error";
+    else if(firstNumber=!null){
+      result="Error";
     }
 
-    else if(y=!null){
-      z="Error"; 
+    else if(secondNumber=!null){
+      firstNumber="Error"; 
     }
   
 
 
-    window.alert(z);
+    window.alert(result);
   
   
